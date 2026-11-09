@@ -1,11 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre por qué Brasil conquista al mundo con su naturaleza, cultura, sabor y alegría.">
+  <title>Brasil | Un mundo de razones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Mi sitio web</h1>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">B</span> BRASIL<span class="brand-dot">.</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#razones">Razones</a>
+      <a href="#destinos">Destinos</a>
+      <a class="nav-cta" href="#final">Siente Brasil ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> LATINOAMÉRICA EN SU MÁXIMA EXPRESIÓN</p>
+        <h1>Brasil no se<br>explica. <em>Se siente.</em></h1>
+        <p class="hero-copy">
+          Un país que convierte cada paisaje, cada ritmo y cada encuentro
+          en una razón para quedarse un poco más.
+        </p>
+        <a class="button button-light" href="#razones">Descubre por qué ↓</a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span> Río de Janeiro · 22°54′ S, 43°12′ O</div>
+      <div class="hero-side">TERRA DE TODOS OS SONS</div>
+    </section>
+
+    <section class="intro section-wrap" id="razones">
+      <div class="intro-label"><span class="mini-star">✳</span> UNA GRANDEZA IMPOSIBLE DE MEDIR</div>
+      <div class="intro-text">
+        <h2>¿El mejor país del mundo?<br><em>Para millones, sí.</em></h2>
+        <p>
+          Tal vez no exista una respuesta universal. Pero hay lugares que se
+          ganan el corazón con tanta facilidad que la pregunta deja de importar.
+          Brasil es uno de ellos.
+        </p>
+      </div>
+    </section>
+
+    <section class="reasons section-wrap" aria-label="Razones para amar Brasil">
+      <article class="reason-card nature">
+        <span class="card-number">01 / NATURALEZA</span>
+        <div class="card-bottom">
+          <h3>Un planeta<br>en un país.</h3>
+          <p>Amazonía, playas infinitas, cataratas y paisajes que parecen de otro mundo.</p>
+        </div>
+      </article>
+
+      <article class="reason-card rhythm">
+        <span class="card-number">02 / CULTURA</span>
+        <div class="card-bottom">
+          <h3>El ritmo<br>está en todo.</h3>
+          <p>Samba, bossa nova y una creatividad que transforma la calle en escenario.</p>
+        </div>
+      </article>
+
+      <article class="reason-card flavor">
+        <span class="card-number">03 / SABOR</span>
+        <div class="card-bottom">
+          <h3>Una mesa<br>sin fronteras.</h3>
+          <p>Feijoada, pão de queijo, açaí: cada región tiene algo que compartir.</p>
+        </div>
+      </article>
+
+      <article class="reason-card people">
+        <span class="card-number">04 / GENTE</span>
+        <div class="card-bottom">
+          <h3>La alegría<br>se contagia.</h3>
+          <p>Hospitalidad, calidez y esa forma única de hacerte sentir parte.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-symbol">“</div>
+      <blockquote>
+        Brasil es demasiado grande para caber en una sola palabra.<br>
+        <em>Por suerte, basta con vivirlo.</em>
+      </blockquote>
+      <p class="quote-caption">UN PAÍS, INFINITAS FORMAS DE SENTIR</p>
+    </section>
+
+    <section class="destinations section-wrap" id="destinos">
+      <div class="destinations-heading">
+        <div>
+          <p class="eyebrow dark"><span></span> DE NORTE A SUR</p>
+          <h2>Siempre hay<br><em>otro Brasil.</em></h2>
+        </div>
+        <p class="dest-copy">
+          Cada destino abre una puerta distinta: aventura, calma, historia
+          o pura celebración.
+        </p>
+      </div>
+
+      <div class="destination-list">
+        <a href="#final" class="destination">
+          <span class="dest-no">01</span><span class="dest-name">Río de Janeiro</span>
+          <span class="dest-detail">La ciudad maravillosa</span><span class="dest-arrow">↗</span>
+        </a>
+        <a href="#final" class="destination">
+          <span class="dest-no">02</span><span class="dest-name">Amazonía</span>
+          <span class="dest-detail">La naturaleza en estado puro</span><span class="dest-arrow">↗</span>
+        </a>
+        <a href="#final" class="destination">
+          <span class="dest-no">03</span><span class="dest-name">Salvador de Bahía</span>
+          <span class="dest-detail">Historia con sabor y ritmo</span><span class="dest-arrow">↗</span>
+        </a>
+        <a href="#final" class="destination">
+          <span class="dest-no">04</span><span class="dest-name">Foz do Iguaçu</span>
+          <span class="dest-detail">La fuerza de las cataratas</span><span class="dest-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="closing" id="final">
+      <div class="closing-inner">
+        <p class="eyebrow"><span></span> HAY LUGARES QUE TE CAMBIAN EL PASO</p>
+        <h2>Brasil te cambia<br>el <em>corazón.</em></h2>
+        <a href="#inicio" class="button button-dark">Volver al inicio ↑</a>
+      </div>
+      <div class="closing-stamp">BRASIL<br><span>É BOM DEMAIS</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#inicio"><span class="brand-mark">B</span> BRASIL<span class="brand-dot">.</span></a>
+    <span>Feito com carinho, do tamanho do Brasil. <b>✳</b></span>
+    <span>Una invitación a descubrir</span>
+  </footer>
 </body>
 </html>
